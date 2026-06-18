@@ -221,3 +221,39 @@ body {
     font-weight: 700;
     color: var(--brown-950);
 }
+
+
+@media (max-width: 1024px) {
+
+    .content {
+        gap: 1.75rem;
+        padding: 1.5rem 1.75rem;
+    }
+
+    .content h2 {
+        font-size: 1.75rem;
+    }
+
+    .result-this-month span {
+        font-size: 2rem;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .content {
+        gap: 1.5rem;
+        padding: 1.25rem 1.5rem;
+    }
+
+    .content h2 {
+        font-size: 1.5rem;
+    }
+
+    .days-week {
+        gap: 0.5rem;
+    }
+    
+}
