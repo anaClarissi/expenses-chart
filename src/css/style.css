@@ -131,33 +131,58 @@ body {
 .days-week {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     gap: 1rem;
     width: 100%;
-    padding: 2.5rem 0 1.5rem;
+    padding: 1.5rem 0;
     font-size: 0.875rem;
     color: var(--brown-950);
     border-bottom: 2px solid var(--red-100);
 }
 
 .days {
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 0.25rem;
-    height: 9.375rem;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
     width: 100%;
-    text-align: center;
+    color: var(--brown-400);
+    transition: opacity .2s ease;
 }
 
-.days-percentege {
+.days:focus-within,
+.days:hover {
+    opacity: 0.8;
+}
+
+.amount {
+    position: absolute;
+    display: none;
+    padding: 0.4rem;
+    border-radius: 4px;
+    color: white;
+    background-color: var(--brown-950);
+}
+
+.days:hover .amount,
+.days:focus-within .amount {
     display: block;
-    height: 100%;
-    width: 100%;
-    border-radius: 0.25rem;
-    background-color: var(--red-500);
 }
 
+.bar {
+    width: 100%;
+    max-width: 50px;
+    border-radius: 5px;
+    background-color: var(--red-500);
+    cursor: pointer;
+}
+
+.bar:focus {
+    outline: 3px solid var(--brown-950);
+    outline-offset: 2px;
+}
 
 
 /*====================
