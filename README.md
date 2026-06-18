@@ -1,110 +1,146 @@
-# Frontend Mentor - Expenses chart component
+# 📊 Expenses Chart Component
 
-![Design preview for the Expenses chart component coding challenge](preview.jpg)
+<div align="center">
 
-## Welcome! 👋
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 
-Thanks for checking out this front-end coding challenge.
+Projeto desenvolvido como solução para um desafio da plataforma Frontend Mentor.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+🔗 **Site Online:** https://anaclarissi.github.io/expenses-chart/
 
-**To do this challenge, you need a decent understanding of HTML, CSS and JavaScript.**
+🔗 **Desafio:** https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt
 
-## The challenge
+🔗 **Meu Perfil Frontend Mentor:** https://www.frontendmentor.io/profile/anaClarissi
 
-Your challenge is to build out this bar chart component and get it looking as close to the design as possible.
+</div>
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+---
 
-We provide the data for the chart in a local `data.json` file. So you can use that to dynamically add the bars if you choose.
+## 📸 Preview
 
-Your users should be able to:
+<div align="center">
 
-- View the bar chart and hover over the individual bars to see the correct amounts for each day
-- See the current day's bar highlighted in a different colour to the other bars
-- View the optimal layout for the content depending on their device's screen size
-- See hover states for all interactive elements on the page
-- **Bonus**: See dynamically generated bars based on the data provided in the local JSON file
+![Preview do Projeto](./preview.jpg)
 
-### Want some support on the challenge? 
+</div>
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+---
 
-## Where to find everything
+## 📖 Sobre o Projeto
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Este projeto apresenta um gráfico de despesas dos últimos sete dias, exibindo visualmente os gastos diários através de barras proporcionais aos valores recebidos de um arquivo JSON.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+O desafio teve como objetivo praticar a manipulação de dados com JavaScript, a criação dinâmica de elementos HTML e a construção de interfaces responsivas e acessíveis.
 
-If you would like the Figma design file to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+---
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## 🎯 Objetivo
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+Durante o desenvolvimento foram praticados conceitos como:
 
-## Using AI coding assistants
+* Consumo de dados externos em formato JSON.
+* Manipulação do DOM.
+* Criação dinâmica de componentes.
+* Cálculo proporcional para geração de gráficos.
+* Responsividade.
+* Acessibilidade básica.
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+---
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+## ✨ Funcionalidades
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+* ✅ Leitura de dados a partir de arquivo JSON.
+* ✅ Geração dinâmica das barras do gráfico.
+* ✅ Destaque automático para o dia atual.
+* ✅ Exibição do valor gasto ao passar o mouse ou navegar pelo teclado.
+* ✅ Layout responsivo.
+* ✅ Navegação acessível por teclado.
+* ✅ Feedback visual para interação do usuário.
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+---
 
-## Building your project
+## ♿ Acessibilidade
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+Algumas práticas de acessibilidade implementadas:
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+* Uso de atributos ARIA.
+* Navegação por teclado através de `tabindex`.
+* Informações descritivas com `aria-label`.
+* Estrutura semântica para leitura por tecnologias assistivas.
+* Destaque visual para elementos em foco.
 
-## Deploying your project
+---
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+## 🛠️ Tecnologias Utilizadas
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+* JSON
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
+---
 
-## Create a custom `README.md`
+## 📂 Estrutura do Projeto
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+```text
+expenses-chart/
+│
+├── src/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── images/
+│   │
+│   └── js/
+│       └── script.js
+│
+├── data.json
+├── index.html
+└── README.md
+```
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+---
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+## 📚 Aprendizados
 
-## Submitting your solution
+Este projeto foi uma ótima oportunidade para praticar:
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
+* Consumo e manipulação de dados JSON.
+* Métodos de array como `map()`.
+* Criação dinâmica de elementos com JavaScript.
+* Cálculos para representação visual de dados.
+* Organização de código em funções reutilizáveis.
+* Aplicação de conceitos de acessibilidade.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+---
 
-## Sharing your solution
+## 🌱 Possíveis Melhorias Futuras
 
-There are multiple places you can share your solution:
+* Adicionar animações no carregamento das barras.
+* Exibir informações detalhadas ao clicar nas barras.
+* Implementar diferentes períodos de análise.
+* Permitir atualização dinâmica dos dados.
+* Melhorar ainda mais a experiência para leitores de tela.
 
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+---
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+## ⚠️ Aviso
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+Este projeto foi desenvolvido exclusivamente para fins de estudo e prática de desenvolvimento front-end.
 
-## Got feedback for us?
+Os dados utilizados são apenas ilustrativos e o objetivo principal foi exercitar conceitos de HTML, CSS, JavaScript, manipulação de dados e acessibilidade.
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+Não se trata de uma aplicação financeira real.
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+---
 
-**Have fun building!** 🚀
+## 👩‍💻 Autora
+
+Feito com dedicação por **Ana Clarissi**.
+
+* Frontend Mentor: https://www.frontendmentor.io/profile/anaClarissi
+* Projeto Online: https://anaclarissi.github.io/expenses-chart/
+
+---
